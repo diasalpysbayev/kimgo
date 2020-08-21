@@ -1,0 +1,1593 @@
+/*!
+Theme Name: kimgo
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+*/
+*{
+    font-family: 'San Francisco Pro Display Medium' sans-serif;
+}
+
+@font-face {
+    font-family: 'Instagram';
+    src: url('fonts/Billabong\ W00\ Regular.eot');
+    src: url('fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Billabong\ W00\ Regular.woff') format('woff'),
+    url('fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Thin';
+    src: url('fonts/SFProDisplay-Thin.eot');
+    src: url('fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Thin.woff') format('woff'),
+    url('fonts/SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Regular';
+    src: url('fonts/SFProDisplay-Regular.eot');
+    src: url('fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Medium';
+    src: url('fonts/SFProDisplay-Medium.eot');
+    src: url('fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Medium.woff') format('woff'),
+    url('fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Bold';
+    src: url('fonts/SFProDisplay-Bold.eot');
+    src: url('fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Bold.woff') format('woff'),
+    url('fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.sub-menu {
+  padding-right: 50px;
+  display: none;
+  background: #F5B0B8;
+}
+
+.subheader__panel {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  list-style-type: none;
+  width: 229px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.subheader__panel a {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+hr {
+  margin-bottom: 15px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.07);
+  color: rgba(0, 0, 0, 0.07);
+  height: 1px;
+  width: auto;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .sub-menu, .dropdown:active .sub-menu {
+  position: absolute;
+  display: block;
+}
+
+.nav {
+    min-height: 110px;
+    padding-top: 39px;
+}
+.nav__logo {
+    width: 155px;
+    height: 39px;
+}
+.nav__logo img {
+    width: 100%;
+    height: 100%;
+}
+.nav__img {
+    width: 30px;
+    height: 30px;
+}
+.nav__account-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.nav__wrapper-item {
+    margin-left: 6px;
+}
+.nav__signin {
+    font-family: "San Francisco Pro Display Thin";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #333333;
+}
+.nav__register {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #333333;
+}
+.nav__identify {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav__identify a {
+    display: block;
+}
+.nav__shoplist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav__shoplist a {
+    display: block;
+}
+.nav__shopname {
+    font-family: "San Francisco Pro Display Thin";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #333333;
+}
+.nav__cost {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #333333;
+}
+.nav__contact {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.nav__questions {
+    margin-left: 10px;
+    font-family: "San Francisco Pro Display Thin";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.nav__number {
+    font-family: "San Francisco Pro Display Regular";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.nav__form {
+    position: relative;
+    width: 330px;
+}
+.nav__search {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ebebeb;
+    border: none;
+    padding: 14px 48px;
+}
+.nav__search::-webkit-input-placeholder {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+.nav__search:-ms-input-placeholder {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+.nav__search::-ms-input-placeholder {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+.nav__search::placeholder {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+.nav__search:focus {
+    outline: none;
+}
+.nav__submit {
+    background-color: #ebebeb;
+    position: absolute;
+    height: 40px;
+    left: 0px;
+    border-radius: 100%;
+    border: none;
+}
+.nav__submit img {
+    padding-left: 10px;
+}
+.nav__submit:focus {
+    outline: none;
+}
+#site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+.subheader {
+    position: fixed;
+    width: 100%;
+    background: #ffbec0;
+}
+.subheader__menu {
+    padding-left: 16px;
+    list-style-type: none;
+    height: 100%;
+    margin: auto 0;
+    z-index: 13;
+}
+.subheader__item {
+    float: left;
+    height: 100%;
+    line-height: 69px;
+}
+.subheader__link {
+    padding: 0 26px;
+    display: block;
+    font-family: "San Francisco Pro Display Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.75);
+    text-align: center;
+}
+.subheader__link:hover {
+    color: rgba(51, 51, 51, 0.75);
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.09);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.09);
+    -webkit-transition: 200ms;
+    transition: 200ms;
+}
+.subheader .media_hidden {
+    display: none;
+}
+.slider {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 230px;
+}
+.slider .mySlides img {
+    border-radius: 60px;
+    display: block;
+    width: 100%;
+    height: 443px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.slider .dot_wrapper {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+.slider .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 2;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease;
+}
+.slider .active,
+.slider .dot:hover {
+    background-color: #717171;
+}
+.slider .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.advantages {
+    margin-top: 60px;
+    padding-top: 63px 0 96px 0;
+}
+.advantages__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.advantages__text {
+    text-align: left;
+    margin-left: 40px;
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+.text1 {
+    margin-top: 100px;
+    margin-bottom: 33px;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+}
+.text1:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 3px;
+    background: #a9a9a9;
+    border: solid #fff;
+    border-width: 0 33px;
+    width: 863px;
+}
+.text2 {
+    margin-top: 100px;
+    margin-bottom: 33px;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+}
+.text2:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 3px;
+    background: #a9a9a9;
+    border: solid #fff;
+    border-width: 0 33px;
+    width: 970px;
+}
+.text3 {
+    margin-top: 100px;
+    margin-bottom: 33px;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+}
+.text3:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 3px;
+    background: #a9a9a9;
+    border: solid #fff;
+    border-width: 0 33px;
+    width: 1000px;
+}
+.text4 {
+    margin-top: 100px;
+    margin-bottom: 33px;
+    font-size: 40px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+}
+.text1:after,
+.text2:after,
+.text3:after {
+    margin-right: -100%;
+}
+.catalog__wrapper {
+    position: relative;
+    height: 386px;
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 21px;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.catalog__cover {
+    position: absolute;
+    right: -3px;
+    top: 17px;
+}
+.catalog__img {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    height: 244px;
+    width: 154px;
+}
+.catalog__company {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #57d6e7;
+}
+.catalog__type {
+    margin-top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.catalog__name {
+    font-style: normal;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+.catalog__banner {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.btn {
+    position: relative;
+    background: #fff;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 153px;
+    height: 41px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    border: 1px solid rgba(191, 191, 191, 0.3);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20.5px;
+}
+.btn__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    color: #57d6e7;
+    margin-right: 45px;
+    top: 7px;
+    right: 8px;
+}
+
+.btn img {
+    position: absolute;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    right: 20.75px;
+    top: 8px;
+}
+
+.btn {
+    color: #fff;
+}
+
+/*.btn__text span {
+    color: #57d6e7;
+}
+*/
+/*#span_chosen{
+    color: #fff;
+}
+
+#span_chosen span{
+    color: #fff;
+}*/
+
+.btn:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.09);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.09);
+    -webkit-transition: 200ms;
+    transition: 200ms;
+}
+.basket:hover {
+    background: rgba(254, 90, 148, 0.6);
+}
+.after {
+    left: 10px;
+    top: 4px;
+}
+.before {
+    font-size: 13px;
+    line-height: 16px;
+    right: 3px;
+    bottom: 4px;
+    top: 21px;
+    color: #57d6e7;
+}
+.before span {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.63);
+    position: absolute;
+    content: "";
+    width: 45.71px;
+    -webkit-transform: rotate(162.43deg);
+    transform: rotate(162.43deg);
+    bottom: 4px;
+}
+.basket {
+    background: #fe73a4;
+}
+.basket>div{
+    color: white;
+}
+.basket>span{
+    color: white;
+}
+.basket img {
+    top: 14px;
+}
+.blog {
+    text-align: left;
+    font-style: normal;
+    font-size: 23px;
+    color: #2b2b2b;
+    padding-top: 86px;
+}
+.blog__heading {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.blog__text {
+    width: 760px;
+    margin-bottom: 20px;
+}
+.blog .follow {
+    margin-top: 103px;
+    position: relative;
+    min-height: 226px;
+    background: center center/100% no-repeat;
+}
+.blog .follow__text {
+    text-align: left;
+    padding-left: 103px;
+    padding-top: 55px;
+    width: 650px;
+    font-family: "San Francisco Pro Display Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2b2b2b;
+}
+.blog .follow__text span {
+    font-family: "Instagram";
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+}
+.blog .follow__button {
+    position: absolute;
+    right: 50px;
+    top: 75px;
+    width: 300px;
+    height: 65px;
+    background: #3e95ef;
+    border-radius: 13px;
+    border: none;
+}
+.blog .follow__button:hover {
+    background: #56a2f0;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+}
+.blog .follow__button:focus {
+    outline: none;
+}
+.blog .follow__button:active {
+    background: #29639f;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+}
+.blog .follow__link {
+    font-family: "San Francisco Pro Display Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+.blog .follow__link:hover {
+    text-decoration: none;
+    color: white;
+}
+.blog .follow__img {
+    display: block;
+    position: absolute;
+    top: 41%;
+    right: 37%;
+}
+.follow-small {
+    display: none;
+}
+.footer {
+    min-height: 370px;
+    background: url(img/footer/footer_bg.png) center center/100% 100% no-repeat;
+}
+.footer__wrapper {
+    padding-top: 80px;
+    padding-bottom: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.footer__align {
+    width: 33%;
+}
+.footer__align:nth-child(1) {
+    width: 50%;
+}
+.footer__align:nth-child(2) {
+    width: 25%;
+}
+.footer__align:nth-child(3) {
+    width: 25%;
+}
+.footer__img img {
+    width: 100%;
+}
+.footer__contact-header {
+    font-family: "San Francisco Pro Display Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 48px;
+}
+.footer__address-header {
+    font-family: "San Francisco Pro Display Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 48px;
+}
+.footer__text {
+    font-family: "San Francisco Pro Display Medium";
+    font-size: 15px;
+}
+.footer__menu {
+    padding-top: 44px;
+    list-style-type: none;
+}
+.footer__ieem a {
+    font-family: "San Francisco Pro Display Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(42, 42, 42, 0.71);
+}
+.footer .hidden {
+    display: none;
+}
+.footer .shown {
+    display: block;
+}
+.hamburger {
+    display: none;
+}
+@media (max-width: 1199px) {
+    .nav__form {
+        width: 300px;
+    }
+    .nav__account-panel {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .nav__contact {
+        margin-top: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+    .subheader__menu {
+        padding-left: 0;
+    }
+    .subheader__link {
+        font-size: 14px;
+        padding: 0 22px;
+    }
+    .blog {
+        margin: 0 60px;
+        font-size: 18px;
+    }
+    .blog .follow {
+        margin-top: 80px;
+    }
+    .blog .follow__text {
+        padding-left: 50px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .blog .follow__button {
+        right: 25px;
+        top: 75px;
+        width: 260px;
+        height: 55px;
+    }
+    .blog .follow__link {
+        font-size: 22px;
+    }
+    .catalog__name {
+        font-size: 12px;
+    }
+    .catalog__cover {
+        width: 78px;
+    }
+    .advantages__text {
+        margin-left: 25px;
+        font-size: 24px;
+    }
+    .text1:after {
+        width: 680px;
+    }
+    .text2:after {
+        width: 772px;
+    }
+    .text3:after {
+        width: 803px;
+    }
+}
+@media (max-width: 991px) {
+    .nav__logo img {
+        width: 75%;
+    }
+    .nav__search {
+        width: 75%;
+    }
+    .nav__register {
+        font-size: 11px;
+    }
+    .nav__shoplist {
+        margin-left: 3px;
+    }
+    .nav__questions {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .nav__cost {
+        font-size: 11px;
+    }
+    .nav__number {
+        font-size: 11px;
+    }
+    .subheader__link {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+    .blog {
+        font-size: 15px;
+    }
+    .blog__text {
+        width: 650px;
+    }
+    .blog .follow {
+        margin-top: 60px;
+    }
+    .blog .follow__text {
+        padding-left: 25px;
+        padding-top: 80px;
+        font-size: 20px;
+        width: 420px;
+        line-height: 30px;
+    }
+    .blog .follow__text span {
+        font-size: 37px;
+    }
+    .blog .follow__button {
+        width: 190px;
+        height: 50px;
+        top: 90px;
+        right: 10px;
+    }
+    .blog .follow__link {
+        font-size: 17px;
+    }
+    .advantages__text {
+        margin-left: 8px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text1 {
+        font-size: 36px;
+    }
+    .text1:after {
+        width: 472px;
+    }
+    .text2 {
+        font-size: 36px;
+    }
+    .text2:after {
+        width: 555px;
+    }
+    .text3 {
+        font-size: 36px;
+    }
+    .text3:after {
+        width: 580px;
+    }
+    .text4 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+        width: 100%;
+        padding-top: 10px;
+        min-height: 0;
+        height: 69px;
+        background-color: #ffbec0;
+    }
+    .nav .sm-hidden {
+        display: none;
+    }
+    .nav__contact {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav__questions {
+        text-align: right;
+    }
+    .nav__number {
+        text-align: right;
+    }
+    .subheader {
+        position: fixed;
+        height: 69px;
+        background-color: #ffbec0;
+    }
+    .subheader .container {
+        height: 0;
+    }
+    .subheader__menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: fixed;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: #ffbec0;
+        z-index: 5;
+        -webkit-transition: 0.6s all;
+        transition: 0.6s all;
+    }
+    .subheader__menu_active {
+        right: 0;
+    }
+    .subheader__item {
+        width: 100%;
+        float: none;
+        line-height: 20px;
+    }
+    .subheader__link {
+        text-align: left;
+        display: block;
+        padding: 10px 0;
+        font-size: 15px;
+        color: white;
+    }
+    .subheader .media_hidden {
+        display: block;
+    }
+    .subheader .media_hidden .nav__form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subheader .media_hidden .nav__search {
+        width: 100%;
+    }
+    .subheader .media_hidden .nav__submit {
+        left: -4px;
+    }
+    .subheader .media_hidden .nav__signin {
+        color: white;
+    }
+    .subheader .media_hidden .nav__register {
+        color: white;
+    }
+    .subheader .media_hidden .nav__shoplist {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .subheader .media_hidden .nav__shopname {
+        color: white;
+    }
+    .subheader .media_hidden .nav__cost {
+        color: white;
+    }
+    .subheader .hamburger {
+        top: 50%;
+        display: block;
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 45px;
+        height: 24px;
+        left: 10px;
+    }
+    .subheader .hamburger span {
+        background-color: black;
+        display: block;
+        height: 4px;
+        width: 70%;
+        margin-bottom: 4px;
+        -webkit-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    .subheader .hamburger_active span {
+        margin-bottom: -4px;
+    }
+    .subheader .hamburger_active span:nth-child(1) {
+        -webkit-transform: translateY(6px) rotate(-45deg);
+        transform: translateY(6px) rotate(-45deg);
+    }
+    .subheader .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+    .subheader .hamburger_active span:nth-child(3) {
+        -webkit-transform: translateY(6px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
+    }
+    .slider {
+        margin-top: 69px;
+    }
+    .footer__links {
+        padding-left: 0;
+    }
+    .slider__container .dot {
+        height: 10px;
+        width: 10px;
+    }
+    .blog__text {
+        width: 500px;
+    }
+    .blog .follow {
+        margin-top: 0px;
+    }
+    .blog .follow__button {
+        width: 150px;
+        height: 40px;
+    }
+    .blog .follow__text {
+        font-size: 16px;
+        width: 320px;
+    }
+    .blog .follow__text span {
+        font-size: 26px;
+    }
+    .advantages__wrapper {
+        margin-top: 20px;
+    }
+    .advantages__text {
+        margin-left: 30px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .text1 {
+        font-size: 28px;
+    }
+    .text1:after {
+        width: 345px;
+    }
+    .text2 {
+        font-size: 28px;
+    }
+    .text2:after {
+        width: 410px;
+    }
+    .text3 {
+        font-size: 28px;
+    }
+    .text3:after {
+        width: 430px;
+    }
+    .text4 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 575px) {
+    .blog {
+        margin-left: 0;
+    }
+    .blog__text {
+        width: 400px;
+    }
+    .blog .follow {
+        display: none;
+    }
+    .follow-small {
+        display: block;
+        position: relative;
+        margin: 0 10px;
+        min-height: 65px;
+        border-radius: 13px;
+        background: url(img/follow/follow_bg.png) center center/100% no-repeat;
+    }
+    .follow-small__text {
+        position: absolute;
+        text-align: left;
+        top: 10px;
+        left: 10px;
+        width: 66.7%;
+        font-family: "San Francisco Pro Display Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2b2b2b;
+    }
+    .follow-small__text span {
+        font-family: "Instagram";
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .follow-small__button {
+        position: absolute;
+        right: 3px;
+        top: 15px;
+        width: 28%;
+        height: 30px;
+        background: #3e95ef;
+        border-radius: 8px;
+        border: none;
+    }
+    .follow-small__button:hover {
+        background: #56a2f0;
+        -webkit-transition: 150ms;
+        transition: 150ms;
+    }
+    .follow-small__button:focus {
+        outline: none;
+    }
+    .follow-small__button:active {
+        background: #29639f;
+        -webkit-transition: 100ms;
+        transition: 100ms;
+    }
+    .follow-small__link {
+        display: block;
+        font-family: "San Francisco Pro Display Regular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: white;
+    }
+    .follow-small__link:hover {
+        text-decoration: none;
+        color: white;
+    }
+    .follow-small__img {
+        display: block;
+        position: absolute;
+        top: 41%;
+        right: 37%;
+    }
+    .advantages__wrapper {
+        margin-top: 20px;
+    }
+    .advantages__text {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .catalog {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    __cover {
+        width: 87px;
+    }
+    .slider__container .dot {
+        height: 7px;
+        width: 7px;
+    }
+    .footer .shown {
+        display: none;
+    }
+    .footer .hidden {
+        display: block;
+    }
+    .footer__text {
+        font-size: 12px;
+    }
+    .footer__address-header {
+        font-size: 22px;
+    }
+    .footer__contact-header {
+        font-size: 22px;
+    }
+    .footer__item a {
+        font-size: 12px;
+    }
+    .footer__menu {
+        padding-left: 1px;
+    }
+    .footer__contacts {
+        padding-right: 1px;
+    }
+    .text1:after {
+        width: 0;
+    }
+    .text2:after {
+        width: 0;
+    }
+    .text3:after {
+        width: 0;
+    }
+}
+
+button:active, button:focus, input:active, input:focus {
+  outline: none;
+}
+
+.product {
+  margin-top: 230px;
+}
+
+.product__category a{
+    color: black;
+}
+
+.product__wrapper {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__content {
+  margin-left: 67px;
+}
+
+.product__img {
+  width: 330px;
+  height: 520px;
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+          filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+  border-radius: 10px;
+}
+
+.product__image{
+    width: 330px;
+    height: 520px;
+}
+
+.product__name {
+  font-family: 'San Francisco Pro Display Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.product__price {
+  font-family: 'San Francisco Pro Display Bold';
+  margin-top: 10px;
+  color: #57D6E7;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.product__cat {
+  margin-top: 16px;
+}
+
+.tabs {
+  margin-top: 30px;
+  font-size: 0;
+}
+
+.tabs > input[type="radio"] {
+  display: none;
+}
+
+.tabs > div {
+  /* скрыть контент по умолчанию */
+  display: none;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
+  margin-top: 5px;
+  display: block;
+  border: none;
+}
+
+.tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #C4C4C4;
+  padding: 2px 8px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.tabs > label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs > input[type="radio"]:checked + label {
+  background-color: #fff;
+  color: black;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.prodform {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  position: relative;
+}
+
+.prodform__button {
+  border: none;
+  width: 35px;
+  color: #C4C4C4;
+  background-color: #fff;
+  font-size: 23px;
+}
+
+.prodform__button:active {
+  color: black;
+}
+
+.prodform__submit {
+  font-family: 'San Francisco Pro Display Bold';
+  height: 40px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #57D6E7;
+  border: none;
+}
+
+.prodform__input {
+  width: 40px;
+  border: none;
+  text-align: center;
+  font-size: 23px;
+}
+
+.prodform #minus {
+  margin-left: 5px;
+}
+
+.prodform #plus {
+  margin-right: 25px;
+}
+
+.prodform #plus:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 115px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 1px;
+  height: 23px;
+  background-color: #C4C4C4;
+}
+.text2 {
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.text2:before,
+.text2:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 198px;
+    height: 3px;
+    background: #A9A9A9;
+    border: solid #FFF;
+    border-width: 0 33px;
+}
+.text2:before {
+    margin-left: -100%;
+}
+.text2:after {
+    margin-right: -100%;
+}
+
+  .you-may-like__item>div {
+    margin: 5px;
+  }
+
+@media(max-width: 767px){
+    .product{
+        margin-top: 100px;
+    }
+    .product__content{
+        margin-left: 20px;
+    }
+    .product__img, .product__img img{
+        width: 250px;
+        height: 400px;   
+    }
+}
+
+@media(max-width: 576px){
+    .product__img, .product__img img{
+        width: 150px;
+        height: 200px;   
+    }   
+    .product__name{
+        font-size: 18px;
+    }
+    .product__price{
+        margin-top: 3px;
+        font-size: 30px;
+    }
+    .tabs > div{
+        font-size: 14px;
+    }
+    .text2{
+        font-size: 16px;
+    }
+    .prodform{
+        width: 243px;
+    }
+}
+.product-category {
+  margin-top: 175px;
+  background-color: #EFEFEF;
+}
+
+.product-category-name {
+  padding: 48px 0;
+  color: #626262;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
+.products__breadcrumb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.products__breadcrumb__link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+.products__breadcrumb__link span {
+  color: black;
+  font-weight: 500;
+}
+
+.products__breadcrumb__link:hover {
+  color: black;
+}
+
+.products__sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.products__filter-name a {
+  margin-right: 18px;
+  margin-left: 30px;
+  color: black;
+  font-size: 18px;
+  opacity: .8;
+}
+
+.products__filter {
+  border: 1px solid #808080;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 28.5px;
+  color: black;
+  font-size: 16px;
+  opacity: .8;
+  height: 30px;
+  widows: 155px;
+  padding-left: 10px;
+}
+
+.products__filter:active, .products__filter:focus {
+  outline: none;
+}
+
+.filter {
+  border-right: 0.5px solid #212529;
+}
+
+.filter__type {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.filter span {
+  opacity: .5;
+}
+
+.img_sm {
+  width: 120px;
+  height: 200px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.pagination__menu {
+  width: 200px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  color: black;
+  padding: 0;
+}
+
+.pagination__item {
+  margin-right: 5px;
+}
+
+.pagination__link {
+  color: black;
+}
+
+.pagination__link:hover {
+  color: black;
+}
+
+.pagination__link span {
+  font-weight: 500;
+  color: #FE73A4;
+  font-size: 24px;
+}
